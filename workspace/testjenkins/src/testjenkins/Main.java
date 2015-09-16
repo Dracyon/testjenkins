@@ -7,6 +7,7 @@ public class Main {
 		System.out.println("siemano");
 		int j = 10;
 		j=j+30;
+		System.out.println("Srsly?");
 	}
 
 }
