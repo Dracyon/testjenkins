@@ -8,6 +8,7 @@ public class Main {
 		int j = 10;
 		j=j+30;
 		System.out.println("Srsly?");
+		System.out.println("mao");
 	}
 
 }
