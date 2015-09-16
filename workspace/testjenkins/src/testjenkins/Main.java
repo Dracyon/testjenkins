@@ -6,7 +6,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		System.out.println("siemano");
 		int j = 10;
-		j=j+27;
+		j=j+30;
 	}
 
 }
