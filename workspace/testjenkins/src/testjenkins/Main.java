@@ -9,7 +9,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("hello jenkins leee");
+		System.out.println("hello jenkins lesfsadee");
 		File src = new File("/Users/wkowalczyk/Documents/workspace/MantaTesting/Files/Orginal/Binsy/");
 		File dest = new File("/Users/wkowalczyk/Documents/workspace/testjenkins/Binsy/");
 		try {
