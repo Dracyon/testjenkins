@@ -11,7 +11,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		System.out.println("hello jenkins");
 		File src = new File ("/Users/wkowalczyk/Documents/workspace/MantaTesting/Files/Orginal/Binsy/");
-		File dest = new File ("/Users/wkowalczyk/Documents/workspace/testjenkins/Binsy");
+		File dest = new File ("/Users/wkowalczyk/Documents/workspace/testjenkins/Binsy/serio");
 		try {
 			FileUtils.copyDirectory(src, dest);
 		} catch (IOException e) {
