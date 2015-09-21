@@ -10,10 +10,13 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("hello jenkins lesfsadee");
-		File src = new File("/Users/wkowalczyk/Documents/workspace/MantaTesting/Files/Orginal/Binsy/");
-		File dest = new File("/Users/wkowalczyk/Documents/workspace/testjenkins/Binsy/");
+		File src = new File("/Users/wkowalczyk/Documents/workspace/MantaTesting/Files/Orginal/BL/");
+		File dest = new File("/Users/wkowalczyk/Documents/workspace/testjenkins/BL_ORG/");
+		File src2 = new File("/Users/wkowalczyk/Documents/workspace/MantaTesting/Files/Test/BL/");
+		File dest2 = new File("/Users/wkowalczyk/Documents/workspace/testjenkins/BL_TST/");
 		try {
 			FileUtils.copyDirectory(src, dest);
+			FileUtils.copyDirectory(src2, dest2);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
